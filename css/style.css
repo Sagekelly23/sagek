@@ -1,0 +1,35 @@
+body{   
+    background: rgb(50,200,255);
+    background: linear-gradient(90deg, rgba(50,200,255,1) 0%, rgba(139,224,255,1) 67%, rgba(255,38,139,1) 81%);
+}
+
+h1{
+    font-family: easycore;
+    Letter-Spacing: 15px;
+    font-size: 150pt;
+    color: white;
+    text-shadow: -5px 5px 0px #00e6e6, -10px 10px 0px #01cccc, -15px 15px 0px #00bdbd;
+    padding-left: 40px; }
+
+h2{
+    font-family: easycore;
+    letter-spacing: 5px;
+    font-size: 80pt;
+    text-align: right;
+    color: white;
+    padding-right: 40px; }
+
+
+h3{
+    font-family: futura pt demi;
+    font-size: 30pt;
+    letter-spacing: 10px;
+    color: white;
+    padding-left: 40px;
+}
+h4{
+    font-family: futura pt book;
+    font-size: 20pt;
+    letter-spacing: 5px;
+    color: white; 
+}

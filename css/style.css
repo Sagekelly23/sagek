@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+	
+		body{   
+			background: rgb(50,200,255);
+			background: linear-gradient(90deg, rgba(50,200,255,1) 0%, rgba(139,224,255,1) 67%, rgba(255,38,139,1) 81%);
+		}
+
+		h1{
+			font-family: 'Righteous', cursive;
+			Letter-Spacing: 15px;
+			font-size: 110pt;
+			color: white;
+			text-shadow: -5px 5px 0px #fd4cae, -10px 10px 0px #e93d93, -15px 15px 0px #e72381;
+			padding-left: 40px; }
+
+		h2{
+			font-family: 'Righteous', cursive;
+			letter-spacing: 5px;
+			font-size: 80pt;
+			text-align: right;
+			color: white;
+			padding-right: 40px; }
+
+
+		h3{
+			font-family: 'Futura pt demi';
+			font-size: 30pt;
+			letter-spacing: 10px;
+			color: white;
+			padding-left: 40px;
+			
+		}
+		
+		h4{
+			font-family: 'Futura pt demi';
+			font-size: 20pt;
+			letter-spacing: 5px;
+			color: white;
+		
+		}
+		
+		#nav {
+			float: right;
+		}
+
+		.nav {
+			background: #eeeeee;
+			display: block;
+			height: 50px;
+		  }
+		  
+		  a {
+			text-decoration: none;
+		  }
+		  
+		  .wrapper {
+			width: 70%;
+			<!-- border: 1px solid red; -->
+		  }
+		  
+		  .navLink {
+			font-family: 'Righteous', cursive;
+			letter-spacing: 5px;
+			font-size: 90px;
+			text-align: right;
+			color: white;
+			<!-- border: 1px solid blue; -->
+			width: 360px;
+			height: 120px;
+			margin: 10px;
+		  }
+		  
+		  .navLink:hover {
+			font-size: 100px;
+			transition-duration: 0.2s;
+			color: #77dafe;
+			text-shadow: -5px 5px 0px white;
+			letter-spacing: 10px;
+		  }
+		  
+		  aside {
+			position: fixed;
+			right: 10px;
+			top: 50px;
+		  }
+		  
+		  #stupidFlourish {
+			margin-top: 100px;
+			margin-top: 50px;
+			margin-left: 30px;
+			background-color: ;
+			width: 80%;
+			height: 20px;
+		  }

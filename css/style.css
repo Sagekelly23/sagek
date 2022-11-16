@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
 	
 		body{   
-			background: rgb(50,200,255);
-			background: linear-gradient(90deg, rgba(50,200,255,1) 0%, rgba(139,224,255,1) 67%, rgba(255,38,139,1) 81%);
+			margin: 0px;
+			padding: 0px;
+			width: 100%;
+			background-image: url(../images/maybe.jpg)
 		}
 
 		h1{
@@ -10,20 +13,24 @@
 			Letter-Spacing: 15px;
 			font-size: 110pt;
 			color: white;
-			text-shadow: -5px 5px 0px #fd4cae, -10px 10px 0px #e93d93, -15px 15px 0px #e72381;
-			padding-left: 40px; }
+			text-shadow:none;
+			padding-left: 40px;
+			text-shadow: 
+			
+		 }
 
 		h2{
 			font-family: 'Righteous', cursive;
 			letter-spacing: 5px;
 			font-size: 80pt;
-			text-align: right;
+			text-align: left;
 			color: white;
-			padding-right: 40px; }
+			padding-left: 40px; 
+		}
 
 
 		h3{
-			font-family: 'Futura pt demi';
+			font-family: 'Lato';
 			font-size: 30pt;
 			letter-spacing: 10px;
 			color: white;
@@ -32,7 +39,7 @@
 		}
 		
 		h4{
-			font-family: 'Futura pt demi';
+			font-family: 'Lato';
 			font-size: 20pt;
 			letter-spacing: 5px;
 			color: white;
@@ -73,8 +80,8 @@
 		  .navLink:hover {
 			font-size: 100px;
 			transition-duration: 0.2s;
-			color: #77dafe;
-			text-shadow: -5px 5px 0px white;
+			color:none;
+			text-shadow:none;
 			letter-spacing: 10px;
 		  }
 		  
@@ -92,3 +99,8 @@
 			width: 80%;
 			height: 20px;
 		  }
+		  .playlist {
+			padding-left: 40px;
+		  }
+
+		  

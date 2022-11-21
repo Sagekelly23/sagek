@@ -5,7 +5,7 @@
 			margin: 0px;
 			padding: 0px;
 			width: 100%;
-			background-image: url(../images/maybe.jpg)
+			background-image: url(../images/home.jpg)
 		}
 
 		h1{
@@ -64,6 +64,11 @@
 			width: 70%;
 			<!-- border: 1px solid red; -->
 		  }
+
+		  .wrapper2 {
+			width: 70%;
+			<!-- border: 1px solid red; -->
+		  }
 		  
 		  .navLink {
 			font-family: 'Righteous', cursive;
@@ -90,6 +95,11 @@
 			right: 10px;
 			top: 50px;
 		  }
+
+		  aside > a {
+			border: ;
+			display: block;
+		  }
 		  
 		  #stupidFlourish {
 			margin-top: 100px;
@@ -99,8 +109,47 @@
 			width: 80%;
 			height: 20px;
 		  }
-		  .playlist {
-			padding-left: 40px;
+		  #playlist {
+			padding-left: 100px;
 		  }
-
 		  
+		  @media only screen and (max-width: 1200px) {
+			aside {
+			  border: ;
+			  position: relative;
+			  width: 100%;
+			  font-size: 20px;
+				text-align: center;
+				
+			}
+			
+			aside > a {
+				border: ;
+				
+			  }
+
+			  .navLink {
+				text-align: center;
+			  }
+
+			  h1 {
+				font-size: 60px;
+				text-align: center;
+				border: ;
+				width: 100%;
+				display: block;
+			  }
+
+			  .wrapper2, .wrapper {
+				width: 100%;
+			  }
+			  h3 {
+				font-size: 30px;
+				text-align: left;
+			  }
+			  h2 {
+				font-size: 60px;
+			  }
+
+			  
+		}

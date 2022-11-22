@@ -125,6 +125,8 @@
 			
 			aside > a {
 				border: ;
+				text-align: center;
+			
 				
 			  }
 
@@ -134,10 +136,11 @@
 
 			  h1 {
 				font-size: 60px;
-				text-align: center;
+				text-align: left;
 				border: ;
 				width: 100%;
 				display: block;
+				letter-spacing: 5px;
 			  }
 
 			  .wrapper2, .wrapper {
@@ -146,9 +149,11 @@
 			  h3 {
 				font-size: 30px;
 				text-align: left;
+				letter-spacing: 3px;
 			  }
 			  h2 {
 				font-size: 60px;
+				text-align: left;
 			  }
 
 			  

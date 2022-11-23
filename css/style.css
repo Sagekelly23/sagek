@@ -114,6 +114,13 @@
 		  }
 		  
 		  @media only screen and (max-width: 1200px) {
+			body{
+				margin: 0px;
+				padding: 0px;
+				width: 100%;
+				background-image:url(../images/uhh.jpg);
+			  }
+
 			aside {
 			  border: ;
 			  position: relative;
@@ -141,6 +148,7 @@
 				width: 100%;
 				display: block;
 				letter-spacing: 5px;
+				padding-left: 20px;
 			  }
 
 			  .wrapper2, .wrapper {
@@ -155,6 +163,5 @@
 				font-size: 60px;
 				text-align: left;
 			  }
-
 			  
 		}

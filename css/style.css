@@ -112,6 +112,33 @@
 		  #playlist {
 			padding-left: 100px;
 		  }
+
+		  .bandHead {
+			font-family: 'Righteous';
+			font-size: 25pt;
+			letter-spacing: 10px;
+			color: white;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			padding-bottom: 20px;
+			letter-spacing: 3px;
+		}
+		.content {
+			width: 100%;
+			margin-left: 10px;
+			margin-right: 10px;
+			margin: 0 auto;
+			position: relative;
+			top: 150px;
+			letter-spacing: 5px;
+		}
+		
+		.flex-content {
+			display: flex;
+			flex-wrap: no-wrap;
+			justify-content: space-evenly;
+			margin-top: 5px;
+			margin-bottom: 30px;
 		  
 		  @media only screen and (max-width: 1200px) {
 			body{

@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+*{box-sizing:border-box;}
+.header{
+padding-top: 100px;
+}
 body {   
    
 	margin: 0px;
@@ -30,9 +35,10 @@ h2{
     text-align: left;
     color: white;
     padding-right: 40px; }
+	
 
 .againstme{
-    width: 100%;
+    width: 75%;
 	height: auto;
 }
 
@@ -44,66 +50,70 @@ h2{
 	position: relative;
 	top: 150px;
 	z-index: -1;
+	letter-spacing: 5px;
 }
 
 .flex-content {
 	display: flex;
-	flex-wrap; no-wrap;
+	flex-wrap: no-wrap;
 	justify-content: space-evenly;
 	margin-top: 5px;
 	margin-bottom: 30px;
 }
 
-.flex-content > .imageDiv {
+.imageDiv {
 	width: 35vw;
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
 }
 
-.flex-content > .textDiv {
+.textDiv {
 	width: 45vw;
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
+	/*border: 1px solid red;*/
 }
 
 .bandText {
-	font-family: 'Futura pt demi';
+	font-family: 'Lato';
     font-size: 20pt;
     letter-spacing: 3px;
     color: white;
     text-align: left;
 	font-weight: 900;
 	margin: 0px;
+	padding-top: 50x;
 }
 
 .bandHead {
-	font-family: 'Futura pt demi';
-    font-size: 36pt;
+	font-family: 'Righteous';
+    font-size: 25pt;
     letter-spacing: 10px;
     color: white;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 3px;
 }
 
 nav {
-	margin: 0px;
-	padding: 0px;
-	position: relative;
-	width: 100%;
+	position: absolute;
 	height: 120px;
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
-	background-image: url(../images/bac.jpg)
+	background-image: url(../images/bac.jpg);
 	box-sizing: border-box;
 	top: 0px;
+	/*border: 1px solid green;*/
+	bottom: 0px;
 }
 
 .navList {
 	position: absolute;
-	bottom: 0px;
+	bottom: 50px;
 	right: 50px;
 	text-align: right;
 }
@@ -121,6 +131,136 @@ nav {
 
 .navList > a:hover {
 	color: #ff07a0;
+
+
 	
 }
-@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 1200px) {
+	
+h1 {
+    font-family: 'Righteous', cursive;
+    Letter-Spacing: 15px;
+    font-size: 80pt;
+    color: white;
+    text-shadow: none;
+    padding-left: 0px;
+	margin: 0px;
+	bottom: 5px;
+	position: relative;
+	bottom: 10px;
+	text-align: center ;
+	}
+
+h2{
+    font-family: 'Righteous', cursive;
+    letter-spacing: 5px;
+    font-size: 80pt;
+    text-align: left;
+    color: white;
+    padding-right: 40px; }
+
+.againstme{
+    width: 100%;
+	height: auto;
+}
+
+.content {
+	width: 100%;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin: 0 auto;
+	position: relative;
+	top: 50px;
+	z-index: -1;
+}
+
+.flex-content {
+	display: block;
+	flex-wrap: no-wrap;
+	justify-content: space-evenly;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	width: 90%;
+	/*border: 1px solid red;*/
+}
+
+.againstme{
+    width: 100%;
+	height: auto;
+}
+
+.imageDiv {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.textDiv {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	margin-bottom: 60px;
+	padding-top: 20px;
+}
+
+.bandText {
+	font-family: 'Lato';
+    font-size: 20pt;
+    letter-spacing: 3px;
+    color: white;
+    text-align: left;
+	font-weight: 900;
+	margin: 0px;
+	padding-top: 50x;
+}
+
+.bandHead {
+	font-family: 'Righteous';
+    font-size: 25pt;
+    letter-spacing: 10px;
+    color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 3px;
+}
+
+nav {
+	margin: 0 auto;
+	display: block;
+	position: relative;
+	height: auto;
+	padding: 0px;
+}
+
+.navList {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	/*border: 1px solid yellow;*/
+	width: 100%;
+	right: 0px;
+}
+
+.navList > a {
+	color: #f2f2f2;
+	text-align: center;
+	text-decoration: none;
+	font-size: 15vw;
+	font-family: 'Righteous', cursive;
+    Letter-Spacing: 3px;
+	width: 80%;
+	/*border: 1px solid red;*/
+	display: block;
+	margin: 0 auto;
+	}
+}
+
+.navList > a:hover {
+	color: #ff07a0;
+	
+}
+	
